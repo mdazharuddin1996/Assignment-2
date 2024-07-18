@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +11,7 @@
     list-style: none;
     box-sizing: border-box;
     background-color: #111111;
+    font-family: "Inter", sans-serif;
 }
 /* ------------common style start--------------- */
 .bg-color{
@@ -30,7 +37,10 @@
         padding: 50px;
     }
     .navbar ul li{
-        margin-right: 80px;
+        margin-right: 3.5rem;
+    }
+    .navbar ul li:last-child{
+        margin-right: 0;
     }
     .navbar .logo{
         font-size: 2em;
@@ -43,12 +53,26 @@
     }
     
     .navbar ul li a:hover{
-        background-color: #E6533C;
-        
-
-
-        
+            background-color: #E6533C;
             padding: 5px 20px;
             border-radius: 50px;
     }
+    .navbar .fa-bars{
+        display: none;
+        color:white;
+        font-size: 2em;
+    }
 /* ------------navbar style end here------ */
+
+/* -----------design for for mobile start---------- */
+    @media screen and (max-width:576px) {
+        .navbar ul{
+            display: none;
+        }
+        .navbar .fa-bars {
+        display: block;
+        color: white;
+        font-size: 2em;
+        }
+    }
+/* -----------design for for mobile end---------- */
