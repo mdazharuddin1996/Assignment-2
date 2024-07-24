@@ -10,7 +10,8 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    background-color: #111111;
+    color: #ffffff;
+    /* background-color: black; */
     font-family: "Inter", sans-serif;
 }
 /* ------------common style start--------------- */
@@ -20,6 +21,7 @@
 .text-color{
     color: #B04433;
 }
+
 .d-flex{
     display: flex;
     justify-content: space-between;
@@ -28,6 +30,21 @@
 .w-eighty-percent{
     width: 80%;
     margin: 0 auto;
+}
+.btn-download{
+background-color: black;
+}
+.btn{
+         color: white;
+        font-size: 1em;
+        padding: 10px 25px;
+        border-radius: 50px;
+        border: 1px solid white;
+        margin-top: 40px;
+}
+.btn:hover{
+background-color: #E6533C;
+border: none;
 }
 /* ------------common style end  --------------- */
 
@@ -39,6 +56,7 @@
     .navbar ul li{
         margin-right: 3.5rem;
     }
+    
     .navbar ul li:last-child{
         margin-right: 0;
     }
@@ -51,7 +69,9 @@
         padding: 5px 20px;
         border-radius: 50px;
     }
-    
+      
+       
+   
     .navbar ul li a:hover{
             background-color: #E6533C;
             padding: 5px 20px;
@@ -62,10 +82,294 @@
         color:white;
         font-size: 2em;
     }
+ 
+   
 /* ------------navbar style end here------ */
+
+/* banner-container start */
+#header{
+    width: 100%;
+    padding: 0 150px;
+    background-color: #202020;
+}
+.banner-container{
+    padding: 0px 50px; 
+}
+.banner-content{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-content h1{
+    font-size: 5em;
+}
+.fitness-description{
+    /* background-color: #202020; */
+    background-color: black;
+    color: #646262;
+}
+#get-body-des{
+    background-color: #202020;
+    /* padding-top: 20px; */
+}
+.join-btn {
+    margin-right: 20px;
+    border: none;
+}
+.banner-img-container{
+width: 50%;
+background-image: url("../images/Images\ 2.png");
+background-repeat: no-repeat;
+background-size: calc(400px);
+background-position: center;
+height: 600px;
+position: relative;
+}
+.video-tutorial,.free-workout-videos{
+    opacity: .5;
+    width: 200px;
+    height: 100px;
+    border: 1px solid white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color:#463B36;
+    box-shadow: 2px 4px 10px rgb(152, 140, 140);
+}
+.video-tutorial{
+    flex-direction: row;
+    gap: 10px;
+    position: absolute;
+    left: 80px;
+    bottom: 100px;
+}
+.free-workout-videos{
+    position: absolute;
+    right: 140px;
+    top: 110px;
+}
+.video-tutorial 
+p,.free-workout-videos p{
+background-color: #463B36;
+
+}
+.video-tutorial .circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+}
+/* banner-container end */
+
+/* ==============main start================= */
+/* ---------change your habits start--------- */
+main{
+    padding-bottom: 200px;
+    background-color: black;
+}
+.change-habits-container{
+    text-align: center;
+    background-color: black;
+}
+#habits-title{
+    padding: 50px 0;
+    background-color: black;
+}
+.habits-title{
+    background-color: black;
+    padding-bottom: 20px;
+}
+.exercises-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+}
+.movement img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+margin: 50px 0 20px;
+background-color: black;
+}
+/* ---------change your habits end--------- */
+/* run section start */
+.run-container{
+    padding: 20px 50px;
+    display: flex;
+    margin: 50px auto;
+    background-color: #545151;    
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(176, 123, 123);
+}
+.movement{
+    background-color: black;
+}
+.run-des{
+    margin-top: 30px;
+}
+.run-des,.run-title,.run-btn{
+background-color:#545151;
+}
+.run-content,.run-img{
+    width: 50%;
+    padding: 50px;
+    background-color: #545151;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* run section end */
+
+/* training section start */
+.train-title{
+    padding: 20px 0;
+    background-color: black;
+}
+#train-description{
+    margin-bottom: 20px 0;
+    color: #646262;
+    background-color: black;
+    /* background-color: #202020; */
+}
+.training-pic{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+    background-color: black;
+}
+
+.card img{
+    width:100%;
+    height: 100%;
+    background-color: black;
+}
+/* training section end */
+
+/* bmi section start  */
+.bmi-content{
+    width: 576px;
+    margin: 0 300px;
+    padding: 50px;
+    background-color: black;
+}
+.bmi-content h1, p{
+    padding: 20px 0;
+    background-color: black;
+}
+.bmi-cal-container{
+    display: flex;
+    background-color: #4a4848;
+    padding: 20px 150px;
+}
+
+.bmi-chart,.calculate-bmi{
+    width: 50%;
+}
+table{
+    border-collapse: collapse;
+}
+table,tr,td{
+    border: 1px solid white;
+}
+.calculate-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 20px;
+    gap: 10px;
+}
+
+
+table td{
+    padding: 5px;
+    text-align: center;
+    width: 150px;
+    color: #6d6b6b;
+}
+#td td {
+    color: white;
+}
+.cal-item ,#extra{
+    padding: 10px 15px;
+    background-color: #545151;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+#extra{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+#calculate-description{
+    background-color: #4a4848;
+    color: #6d6b6b;}
+/* bmi section end  */
+
+
+/* meet section :start */
+.meet-container{
+    text-align: center;
+    padding: 15px;
+}
+.meet-boy-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.meet-boy-container img{
+width: 100%;
+height: 100%;
+border-radius: 15px;
+}
+.meet-item{
+    position: relative;
+}
+.meet-des{
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+}
+.meet-desp{
+    position: absolute;
+    left: 50px;
+    bottom: 70px;
+    background-color: rgb(100, 98, 98);
+    padding: 10px;
+    opacity: .5;
+}
+/* meet section :end */
+
+/*------------ footer start----------------- */
+.footer{
+    display: flex;
+}
+.footer-fitness{
+    width: 50%;
+}
+.our-service-container{
+    display: flex;
+    width: 50%;
+    background-color: #c81717;
+    color: white;
+}
+/*------------ footer end----------------- */
+
+/* ==============main end================= */
 
 /* -----------design for for mobile start---------- */
     @media screen and (max-width:576px) {
+      #header{
+        padding: 15px;
+      }
         .navbar ul{
             display: none;
         }
@@ -74,5 +378,84 @@
         color: white;
         font-size: 2em;
         }
-    }
-/* -----------design for for mobile end---------- */
+                .banner-container {
+                    width: 100%;
+                    padding: 0px 0px;
+                    margin: 0;
+                    display: block;
+        
+                }
+                .banner-content{
+                    font-size: 10px;
+                    width: 100%;
+                    text-align: center;
+                }
+                .banner-img-container{
+                    width: 100%;
+                }
+                .video-tutorial {
+                position: absolute;
+                left: 10px;
+                bottom: 180px;}
+                
+                .free-workout-videos {
+                position: absolute;
+                right: 0;
+                top: 40px;
+                }
+                .exercises-container {
+                display: block;
+                }
+.run-container {
+    padding: 10px;
+    display: block;
+}
+
+.run-content,
+.run-img {
+    width: 100%;
+    padding: 10px;
+}
+.run-btn button{
+    width: 100%;
+}
+
+.run-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+.training-pic{
+    grid-template-columns: repeat(2,1fr);
+}
+.card5,.card6{
+    display: none;
+}
+.bmi-cal-container {
+    display: block;
+    padding: 10px;
+    justify-content: center;
+}
+.bmi-content{
+    margin: 15px;
+    padding-right: 200px;
+}
+.bmi-chart,
+.calculate-bmi {
+    width: 100%;
+}
+.bmi-chart table{
+    width: 95%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.meet-boy-container {
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+
+
+/*
+ -----------design for for mobile end---------- */
+
+
+    
