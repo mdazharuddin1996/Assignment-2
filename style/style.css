@@ -381,9 +381,7 @@ ul li  ,ul li {
 
 /* -----------design for for mobile start---------- */
     @media screen and (max-width:576px) {
-        .w-eighty-percent{
-            width: 100%;
-        }
+    
       #header{
         padding: 15px;
       }
@@ -457,7 +455,7 @@ ul li  ,ul li {
     padding-right: 200px;
 }
 .bmi-chart,
-.calculate-bmi {
+.calculate-bmi,.cal-item {
     width: 100%;
 }
 .bmi-chart table{
