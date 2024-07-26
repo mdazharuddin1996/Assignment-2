@@ -451,8 +451,9 @@ ul li  ,ul li {
     justify-content: center;
 }
 .bmi-content{
+    width: 80%;
     margin: 15px;
-    padding-right: 200px;
+    padding: 20px;
 }
 .bmi-chart,
 .calculate-bmi,.cal-item {
@@ -468,6 +469,7 @@ ul li  ,ul li {
 }
 
 .our-service-container,.footer,.footer-fitness {
+    padding: 10px;
     display: block;
     width: 100%;
 }
