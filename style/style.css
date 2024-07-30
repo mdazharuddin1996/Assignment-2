@@ -229,6 +229,26 @@ background-color:#545151;
 }
 /* run section end */
 
+/* < !-- uniq part start for bonus --> */
+.uniq-container{
+    display: flex;
+    gap: 20px;
+}
+.uniq-item-container{
+    background-color: rebeccapurple;
+    gap: 20px;
+}
+.uniq-item{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.uniq-item img{
+    width: 50%;
+}
+/* < !-- uniq part end for bonus --> */
+
 /* training section start */
 .train-title{
     padding: 20px 0;
