@@ -454,7 +454,7 @@ ul li  ,ul li {
 }
 
 .run-content,
-.run-img {
+.run-img{
     width: 100%;
     padding: 10px;
 }
@@ -503,6 +503,7 @@ ul li  ,ul li {
 .uniq-container,.uniq-item{
     display: block;
     margin-bottom: 30px;
+    width: 100%;
 }
 .uniq-item{
     border-radius: 10px;
