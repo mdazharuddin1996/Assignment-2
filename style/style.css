@@ -233,19 +233,26 @@ background-color:#545151;
 .uniq-container{
     display: flex;
     gap: 20px;
+    padding: 10px;
 }
 .uniq-item-container{
-    background-color: rebeccapurple;
-    gap: 20px;
+    padding: 10px;
 }
 .uniq-item{
     display: flex;
     gap: 20px;
+    height: 50%;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
+.unit-btn{
+    margin-top: 5px;
+}
+
 .uniq-item img{
     width: 50%;
+    border-radius: 15px;
 }
 /* < !-- uniq part end for bonus --> */
 
@@ -493,9 +500,22 @@ ul li  ,ul li {
     display: block;
     width: 100%;
 }
+.uniq-container,.uniq-item{
+    display: block;
+    margin-bottom: 30px;
 }
-
-
+.uniq-item{
+    border-radius: 10px;
+    box-shadow: -1px 5px 50px rgb(121, 118, 118);
+}
+.uniq-item img{
+    margin-bottom: 5px;
+    width: 100%;
+}
+.unit-btn{
+    width: 100%;
+}
+}
 /*
  -----------design for for mobile end---------- */
 
